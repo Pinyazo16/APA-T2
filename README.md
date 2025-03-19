@@ -6,13 +6,10 @@
 
 - El alumno debe escribir el fichero `primos.py` que incorporará distintas funciones relacionadas con el manejo
   de los números primos.
-
 - El fichero debe incluir una cadena de documentación que incluirá el nombre del alumno y los tests unitarios
   de las funciones incluidas.
-
 - Cada función deberá incluir su propia cadena de documentación que indicará el cometido de la función, los
   argumentos de la misma y la salida proporcionada.
-
 - Se valorará lo pythónico de la solución; en concreto, su claridad y sencillez, y el uso de los estándares marcados
   por PEP-8. También se valorará su eficiencia computacional.
 
@@ -36,7 +33,6 @@ Estas dos funciones deben cumplir las condiciones siguientes:
 
 - Aunque se trate de una solución sub-óptima, en ambos casos deberá partirse de la descomposición en factores
   primos de los argumentos usando las funciones del apartado anterior.
-
 - Aunque también sea sub-óptimo desde el punto de vista de la programación, ninguna de las dos funciones puede
   depender de la otra; cada una debe programarse por separado.
 
@@ -54,7 +50,7 @@ La cadena de documentación del fichero debe incluir los tests unitarios de las 
 comprobarse las siguientes condiciones:
 
 - `esPrimo(numero)`:  Al ejecutar `[ numero for numero in range(2, 50) if esPrimo(numero) ]`, la salida debe ser
-                      `[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]`.
+  `[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]`.
 - `primos(numeor)`: Al ejecutar `primos(50)`, la salida debe ser `(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)`.
 - `descompon(numero)`: Al ejecutar `descompon(36 * 175 * 143)`, la salida debe ser `(2, 2, 3, 3, 5, 5, 7, 11, 13)`.
 - `mcm(num1, num2)`: Al ejecutar `mcm(90, 14)`, la salida debe ser `630`.
