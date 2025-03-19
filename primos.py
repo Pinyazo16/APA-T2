@@ -110,7 +110,7 @@ def mcmN(*args):
     Devuelve el mínimo común múltiplo de un número arbitrario de argumentos.
 
     >>> mcmN(12, 15, 20)
-    180
+    60
     """
 
     resultado = args[0]
